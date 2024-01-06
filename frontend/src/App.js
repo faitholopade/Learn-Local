@@ -13,6 +13,8 @@ function App() {
         <Navbar/>               
         <Routes>
           <Route path = "/" exact element = {<Home/>}/>
+          {/* <Route path ="/"  exact element = {<BookingForm/>}/>
+          <Route path = "/bookings" exact element = {<BookingsList/>}/> */}
           <Route path = "/about" exact element = {<About/>}/>
           <Route path = "/blog" exact element = {<Blog/>}/>
           <Route path = "/contact" exact element = {<Contact/>}/>
