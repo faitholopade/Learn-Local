@@ -1,0 +1,84 @@
+.contact {
+    min-height: 100vh;
+    box-sizing: border-box;
+    font-family: "montserrat", sans-serif;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+  }
+  
+  .container{
+    background: #6E913A;
+    padding: 0 20px;
+    margin: 0 10px;
+    width: 500px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s linear;
+  }
+  .container a{
+      color: #fff;
+  }
+  .icon {
+    font-size: 70px;
+    background:linear-gradient(90deg, #81a624, #ffa318);;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height:100px !important;
+    border-radius: 50%;
+  }
+  .icon p{
+    font-size: 27px;
+    font-weight:bolder ;
+  }
+
+ 
+  
+  /*mouse moved onto the container*/
+  .container:hover {
+    background: none;
+    color: #d38e34;
+    transform: scale(1.1);
+    text-align: center;
+  }
+  
+  .container p {
+    margin-top: 20px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    max-height: 0;
+    opacity: 0;
+    transition: 0.3s linear;
+  }
+  
+  .container:hover p {
+    max-height: 0px;
+    opacity: 1;
+  }
+/*code duplicated here, color seems to change after defining hyperlink reference*/
+  .container a:hover{
+    color: #d38e34;
+  }
+  
+  @media screen and (max-width: 800px) {
+    .contact {
+      flex-direction: column;
+    }
+    .container {
+      width: 100%;
+      max-width: 300px;
+      margin: 10px 0;
+    }
+  }

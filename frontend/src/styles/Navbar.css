@@ -1,0 +1,38 @@
+
+
+.navbar {
+    width: 100%;       /*fixed width prevents position change when minimising windows*/
+    height: 100px;
+    background:linear-gradient(90deg, #d38e34, #63821b);;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Gill Sans', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    
+  }
+.Link:hover{
+  transform: scale(1.1);
+} 
+.Link:active{
+  transform:scale(0.95);
+}
+  
+  .navbar a {
+    position: relative;
+    top: 60px;
+    color: black;
+    text-decoration: none;
+    margin:25px;
+
+  }
+
+  
+  @media only screen and (max-width: 900px) {
+    .navbar a {
+      display: none;                            /* make contents disappear when window size is minimised to a certain point*/
+    }  
+
+  }
+
+  
