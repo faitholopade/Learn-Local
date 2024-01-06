@@ -15,9 +15,7 @@ class Booking(db.Model):
     def __repr__(self):
         return f"<Booking {self.date} at {self.time} for {self.number_of_people} people>"
 
-# @app.route('/')
-# def home():
-#     return 'Welcome to Learn Local'
+
 @app.route('/book', methods=['GET', 'POST'])
 def book():
     if request.method == 'POST':
