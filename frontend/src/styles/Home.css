@@ -1,0 +1,66 @@
+
+.hometext {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 55px;
+    margin-top: 250px;
+    margin-left: 100px;
+    white-space: pre-line;
+    font-weight: bold;
+    animation:fadeInLeft 2s ease;
+
+  }
+  
+.homepicture {
+    width: 1000px;
+    height: 600px;
+    -webkit-mask-image: url('../assets/mask-image.png');
+    mask-image: url('../assets/mask-image.png');
+    mask-size: cover;
+    margin-left: 700px;
+    margin-top: -300px;
+    animation:fadeInRight 2s ease;
+}
+  
+.hometext2 {
+    font:italic small-caps 16px/2 cursive;
+    font-size: 40px;
+    margin-left: 20px;
+    margin-top:180px;
+    color: white;
+    white-space: pre-line;
+    animation:fadeInUp 2s ease;
+}
+
+@keyframes fadeInUp {
+    0%{
+        opacity: 0;
+        transform: translateY(50px);
+
+    }
+    100%{
+        opacity:1;
+        transform:translateY(0px);
+    }
+}
+@keyframes fadeInRight {
+    0%{
+        opacity: 0;
+        transform: translateX(-50px);
+
+    }
+    100%{
+        opacity:1;
+        transform:translateX(0px);
+    }
+}
+@keyframes fadeInLeft {
+    0%{
+        opacity: 0;
+        transform: translateX(50px);
+
+    }
+    100%{
+        opacity:1;
+        transform:translateX(0px);
+    }
+}
