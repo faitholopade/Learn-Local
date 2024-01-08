@@ -19,7 +19,7 @@ Follow these steps to get the application running on your local machine:
 3. create virtual environment
    (Windows)
    ```
-   python -m venv <path>
+   python -m venv venv
    ```
    (Mac)
    ```
