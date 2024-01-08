@@ -19,7 +19,7 @@ The backend is a Flask application that handles bookings and stores them in a SQ
 
 1. Navigate to the `flask-app` directory (backend).
 2. Create a virtual environment:
-   - Windows: `python -m venv <path>`
+   - Windows: `python -m venv venv`
    - Mac/Linux: `python3 -m venv venv`
 3. Activate the virtual environment:
    - Windows: `venv\Scripts\activate`
