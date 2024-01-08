@@ -17,6 +17,14 @@ Follow these steps to get the application running on your local machine:
 1. Open your terminal.
 2. Navigate to the flask-app directory (backend).
 3. create virtual environment
+<<<<<<< HEAD
+=======
+   (Windows)
+   ```
+   python -m venv venv
+   ```
+   (Mac)
+>>>>>>> 15d6514f942bbc10dcf2289f598924b474597deb
    ```
    python -m venv venv
    ```
