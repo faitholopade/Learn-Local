@@ -1,7 +1,7 @@
 import './App.css';
 import Navbar from './components/Navbar';
-import BookingForm from './components/BookingForm';
 import BookingsList from './components/BookingsList';
+import BookingForm from './pages/BookingForm';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Blog from './pages/Blog';
