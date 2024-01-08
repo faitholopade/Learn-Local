@@ -1,5 +1,7 @@
-venv/
-instances/
+flask-app/venv/
+flask-app/instance/
 *.pyc
 __pycache__/
+frontend/node_modules/ 
+frontend/package-lock.json
 .DS_Store

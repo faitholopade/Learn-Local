@@ -17,26 +17,36 @@ Follow these steps to get the application running on your local machine:
 1. Open your terminal.
 2. Navigate to the flask-app directory (backend).
 3. create virtual environment
+<<<<<<< HEAD
+=======
    (Windows)
-   ```
-   python -m venv <path>
-   ```
-   (Mac)
    ```
    python -m venv venv
    ```
+   (Mac)
+>>>>>>> 15d6514f942bbc10dcf2289f598924b474597deb
+   ```
+   python -m venv venv
+   ```
+  
 4. make sure to activate virtual environment
+   ```
+   (Windows)
+   ```
+   venv\Scripts\activate
+   ```
+   (Mac)   
    ```
    source venv/bin/activate
    ```
-5. install Flask
+5. install Flask App requirements
    (Windows)
    ```
-   pip install Flask
+   pip install -r requirements.txt
    ```
    (Mac)
    ```
-   pip3 install Flask
+   pip3 install -r requirements.txt
    ```
 6. now run
    (Windows)
@@ -59,10 +69,13 @@ Follow these steps to get the application running on your local machine:
 ```
 cd learn-local/frontend
 ```
+3. Install App requirements:
+   ```
+   npm install
+   ```
 
-3. Run the frontend on a local server using the following:
+4. Run the frontend on a local server using the following:
 ```
 npm start
 ```
-4. frontend should be running on `http://localhost:3000`
-
+5. frontend should be running on `http://localhost:3000`

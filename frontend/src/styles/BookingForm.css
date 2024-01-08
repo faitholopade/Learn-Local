@@ -1,0 +1,40 @@
+.booking-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;  
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.booking-form {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+    width: 100%;
+    max-width: 400px;
+}
+
+.booking-form input,
+.booking-form button,
+.react-datepicker-wrapper {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.booking-form button {
+    background: #d38e34;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.booking-form button:hover {
+    background: #b3722f;
+}
