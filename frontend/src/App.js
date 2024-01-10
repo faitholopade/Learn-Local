@@ -8,6 +8,7 @@ import Blog from './pages/Blog';
 import Home from './pages/Home';
 import Learnmore from './pages/Learnmore';
 import {BrowserRouter as Router, Route,Routes} from 'react-router-dom';
+import PriceTable from './pages/PricetTable';
 function App() {
   return (
     <div className="App">
@@ -17,6 +18,7 @@ function App() {
           <Route path="/" exact element={<Home/>}/>
           <Route path="/book" exact element={<BookingForm/>}/>
           <Route path="/bookings" exact element={<BookingsList/>}/>
+          <Route path = "/prices" exact element = {<PriceTable/>}/>
           <Route path = "/about" exact element = {<About/>}/>
           <Route path = "/blog" exact element = {<Blog/>}/>
           <Route path = "/contact" exact element = {<Contact/>}/>
