@@ -35,6 +35,7 @@ function Navbar() {
             <div className="Link"><Link to="/Blog">BLOG</Link></div>
             <div className="Link"><Link to="/Contact">CONTACT</Link></div>
             <div className="Link"><Link to="/Book">BOOK</Link></div>
+            <div className="Link"><Link to="/Prices">PRICES</Link></div>
         </div>
     );
 }
