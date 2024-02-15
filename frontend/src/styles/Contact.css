@@ -11,6 +11,7 @@
   
   .container{
     background: #6E913A;
+    border-radius: 20px;
     padding: 0 20px;
     margin: 0 10px;
     width: 500px;
