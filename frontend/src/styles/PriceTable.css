@@ -2,13 +2,16 @@
     margin: 150px auto;
     width: 90%;
     animation: fadeInUp 2s ease;
+
 }
 
 .program {
     background: #f2f2f2;
+    border-width: thin medium;
+    border: solid black;
     padding: 20px;
     margin-bottom: 20px;
-    border-radius: 10px;
+    border-radius: 10px; 
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
