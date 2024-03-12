@@ -1,0 +1,17 @@
+.BlogPostContainer{
+    margin: 20px;
+    border: solid black 2px; 
+    padding: 5px;
+    background-color: rgb(255, 240, 221);
+    border-radius: 10px;
+
+}
+
+h1{
+    padding: 10px;
+}
+
+p{
+    padding: 10px; 
+    font-size: larger;
+}
