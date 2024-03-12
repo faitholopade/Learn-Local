@@ -7,7 +7,7 @@ function About() {
     <div className="aboutus">
       <div className ="aboutcontainer">
         <div className = "content">
-          <h1>Welcome To Our Website</h1>
+          <h1>Welcome!</h1>
           <p>
             The Learn Local Food Programme teaches basic culinary and food sustainability skills to children and
             parents with the aim of improving food education and reducing food poverty.

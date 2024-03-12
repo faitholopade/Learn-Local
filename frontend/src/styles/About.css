@@ -49,9 +49,11 @@
 
 .aboutpic {
     flex:1;
-    width:900px;
+    width:800px;
     margin:auto;
     animation: fadeInRight 2s ease;
+    padding: 15px;
+    border-radius: 30px;
 
 }
 img{

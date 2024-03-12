@@ -8,7 +8,7 @@ import Blog from './pages/Blog';
 import Home from './pages/Home';
 import Learnmore from './pages/Learnmore';
 import {BrowserRouter as Router, Route,Routes} from 'react-router-dom';
-import PriceTable from './pages/PricetTable';
+import PriceTable from './pages/PriceTable';
 function App() {
   return (
     <div className="App">
